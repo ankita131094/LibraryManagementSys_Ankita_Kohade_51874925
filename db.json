@@ -1,0 +1,88 @@
+{
+  "Users": [
+    {
+      "Rack_No": 1,
+      "id": 1,
+      "Title": "Electronic Devices and Circuit Theory",
+      "Author": " Louis Nashelsky , Robert Boylestad",
+      "Subject": " Electronics "
+    },
+    {
+      "Rack_No": 1,
+      "id": 2,
+      "Title": "Design of Analog CMOS Integrated Circuits",
+      "Author": "Behzad Razavi",
+      "Subject": "Electronics"
+    },
+    {
+      "Rack_No": 2,
+      "id": 3,
+      "Title": "Data Structures and Algorithms Made Easy: Data Structures and Algorithmic",
+      "Author": " Narasimha Karumanchi",
+      "Subject": "Computer Science"
+    },
+    {
+      "Rack_No": 2,
+      "id": 4,
+      "Title": "Let Us C: Authentic Guide to C PROGRAMMING Language",
+      "Author": " Yashavant Kanetkar",
+      "Subject": "Computer Science"
+    },
+    {
+      "Rack_No": 3,
+      "id": 5,
+      "Title": "Operation & Maintenance Of Electrical Equipment - Volume",
+      "Author": " B.V.S. Rao",
+      "Subject": "Electrical"
+    },
+    {
+      "Rack_No": 3,
+      "id": 6,
+      "Title": "Basic Electrical Engineering Paperback",
+      "Author": " V.K Mehta (Author), Rohit Mehta",
+      "Subject": "Electrical"
+    },
+    {
+      "Rack_No": 4,
+      "id": 7,
+      "Title": "Foundations and Applications of Engineering Mechanics",
+      "Author": " H. D. Ram and A. K. Chauhan",
+      "Subject": "Mechanical"
+    },
+    {
+      "Rack_No": 4,
+      "id": 8,
+      "Title": "Mechanical Engineering (Conventional and Objective Type)",
+      "Author": "R S Khurmi and J K Gupta",
+      "Subject": "Mechanical"
+    },
+    {
+      "Rack_No": 5,
+      "id": 9,
+      "Title": "Network Theory",
+      "Author": "A.V.Bakshi U.A.Bakshi",
+      "Subject": "Electronics and Telecommunication"
+    },
+    {
+      "Rack_No": 3,
+      "id": 10,
+      "Title": "Power System Analysis",
+      "Author": " M. S. Sukhija, T. K. Nagsarkar",
+      "Subject": "Electrical"
+    },
+    {
+      "Rack_No": "1",
+      "id": "12",
+      "Title": "Solid State Electronic Devices",
+      "Author": " Ben G. Streetman and Sanjay Banerjee",
+      "Subject": "Electronics"
+    },
+    {
+      "Rack_No": "4",
+      "id": "13",
+      "Title": "Theory of Machines",
+      "Author": "J.K. Gupta and R.S. Khurmi",
+      "Subject": "Mechanical"
+    }
+  ]
+}

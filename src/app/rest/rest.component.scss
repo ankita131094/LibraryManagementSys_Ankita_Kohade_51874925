@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    
+}
+
+#books {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#books td, #books th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#books tr:nth-child(even){background-color: #f2f2f2;}
+
+#books tr:hover {background-color: #ddd;}
+
+#books th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:darkcyan;
+  color: white;
+  
+}
+
+.add{
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  display: block;
+  
+}
+.container-fluid{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.button {
+  background-color:darkcyan; 
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+ 
+}
+
+#my_centered_buttons { display: flex; justify-content: center; }
+
+.button:hover {
+  background-color:rgb(134, 204, 134); 
+  color: white;
+}

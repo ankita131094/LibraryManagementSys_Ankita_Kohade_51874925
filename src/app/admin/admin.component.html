@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+
+   <div class="container">
+    <h3><b> Welcome Admin !!!</b></h3>
+   </div>
+
+<!-- <div class="container-fluid">
+   <img [src]= add class="add">
+</div>
+
+<div id="my_centered_buttons">
+   <button class="button button2" [routerLink]="['/addbook']" >Add Book</button>
+</div>
+
+<div class="container-fluid">
+   <img [src]= delete class="add">
+</div>
+
+<div id="my_centered_buttons">
+   <button class="button button2" [routerLink]="['/deletebook']" >Delete Book</button>
+</div> -->
+
+  <div class="row">
+   <div class="col-sm-6">
+  <div id="my_centered_buttons">
+   <button class="button button2"  [routerLink]="['/addbook']" ><div class="container-fluid">
+       <img [src]= add class="add">
+    </div><h3 style="font-family: cursive">Add Book</h3></button>
+</div>
+   </div>
+   <div class="col-sm-6">
+<div id="my_centered_buttons">
+   <button class="button button2"  [routerLink]="['/deletebook']" ><div class="container-fluid">
+       <img [src]= delete class="add">
+    </div><h3 style="font-family: cursive">Delete Book</h3></button>
+</div>
+</div>
+  </div>
+
+<app-footer></app-footer>

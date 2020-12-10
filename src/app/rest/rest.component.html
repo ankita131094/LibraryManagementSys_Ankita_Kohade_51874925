@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <h1 style="color: darkcyan; font-family: cursive;"><b>Books List</b></h1>
+    <nav class="navbar">
+        <input class="form-control" type="text" [(ngModel)]="searchBooks" placeholder="Search Book here......">
+    </nav>
+    <br>
+
+
+    <table class="table table-bordered" id="books">
+        <thead>
+            <th>Id</th>
+            <th>Title</th>
+            <!-- <th>Author</th> -->
+            <th>Subject</th>
+            <th>Rack_No</th>
+            <th>Details</th>
+        </thead>
+        <tbody>
+            <tr
+                *ngFor="let user of users | filterPipe : searchBooks | sortPipe: ['Title'] | paginate:{itemsPerPage:5 , currentPage:p};  ">
+                <td>{{user.id}}</td>
+                <td>{{user.Title}}</td>
+                <!-- <td>{{user.Author}}</td> -->
+                <td>{{user.Subject}}</td>
+                <td>{{user.Rack_No}}</td>
+                <td>
+                    <div id="my_centered_buttons">
+                        <button class="button button2" (click)="getRecord(user.Author)">View Author</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="pagination text-centre">
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+</div>
+<app-footer></app-footer>
+
